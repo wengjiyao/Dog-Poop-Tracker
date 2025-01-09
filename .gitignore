@@ -2,4 +2,4 @@
 captured/
 
 # Ignore all files starting with yolov8 library
-yolov8*.pt
+#yolov8*.pt
