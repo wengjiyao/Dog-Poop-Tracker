@@ -1,0 +1,5 @@
+# Ignore all files in the captured folder
+captured/
+
+# Ignore all files starting with yolov8 library
+yolov8*.pt
