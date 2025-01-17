@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](LICENSE)
 
-A small system (Python-based) to monitor your dog in a backyard via a camera feed.  
+A Python application that monitors your dog in the backyard using a camera feed, detecting and tracking when your dog poops.
 It automatically detects:
 1. Whether there is a dog in the frame (using YOLOv8).
 2. Whether the dog is pooping (using a MobileNetV2 classifier).
@@ -15,11 +15,13 @@ It automatically detects:
 
 ## Table of Contents
 1. [Features](#features)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Project Structure](#project-structure)
-5. [Training Your Own Model](#training-your-own-model)
-6. [License](#license)
+2. [Clone This Repository](#clone-this-repository)
+3. [Install Dependencies](#install-dependencies)
+4. [Usage](#usage)
+5. [Dog Poop Detection Model](#dog-poop-detection-model)
+6. [Related Article](#related-article)
+7. [More Dog-Inspired Projects](#more-dog-inspired-projects)
+7. [License](#license)
 
 ---
 
@@ -31,31 +33,43 @@ It automatically detects:
 
 ---
 
-## Installation
-
-### 1. Clone this repository
+## Clone This Repository
 
 ```bash
 git clone https://github.com/wengjiyao/Dog-Poop-Tracker.git
 cd dog-pooping-detector
 ```
+
 ## Install dependencies
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 ---
 
 ## Usage
+```bash
 python track_n_detect.py
-
+```
 ---
 
 ## Dog Poop Detection Model
 Dog Poop Detection uses MobileNetV2. For training:
-Jupyter Notebook Notebook [dogpoop_mobilenetv2](https://www.kaggle.com/code/wengjiyao/dogpoop-mobilenetv2)
-Dataset [Dog Poop Dataset](https://www.kaggle.com/datasets/wengjiyao/dog-poop-dataset]
+Jupyter Notebook [dogpoop_mobilenetv2](https://www.kaggle.com/code/wengjiyao/dogpoop-mobilenetv2)
+Dataset [Dog Poop Dataset](https://www.kaggle.com/datasets/wengjiyao/dog-poop-dataset)
 
 ---
 
-## More Projects
+## Related Article
+Medium Article [Tracking Dog Poop in the Backyard: A Computer Vision Solution](https://medium.com/@j.y.weng/tracking-dog-poop-in-the-backyard-a-computer-vision-solution-12f0237affcf)
+
+---
+
+## More Dog-Inspired Projects
 [More Dog-Inspired Projects](https://dogumentary.pro)
+
+---
+
+## License
+This project is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
