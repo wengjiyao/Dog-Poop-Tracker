@@ -3,3 +3,28 @@ captured/
 
 # Ignore all files starting with yolov8 library
 yolov8*.pt
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Virtual Environment
+venv/
+.env/
+.env
+
+# Ignore IDE-related files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
